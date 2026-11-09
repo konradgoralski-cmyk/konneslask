@@ -1,0 +1,41 @@
+#wrapper {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px;
+    border-style:normal;
+    padding: auto;
+    border-color: rgb(64, 31, 198);
+}
+#navbar {
+    list-style: none;
+    background-color: chartreuse;
+    margin: auto;
+    padding: auto;
+}
+#navbar li {
+    float: left;
+}
+#navbar li a {
+    display: block;
+    width: auto;
+    font: bold 18px "Playfair Display";
+    background: rgb(44, 41, 206);
+    padding: 5px;
+    color: rgb(255, 250, 250);
+    text-decoration: none;
+}
+.imgright {
+float: right;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(31, 14, 219);
+    margin: 30px;
+}
+body {
+background-image: url("hasse_andersson.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
